@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# measured data
 data = [(436, 1.85), (546, 4.55), (580, 5.45)] 
 
 x = np.array([e[0] for e in data])
